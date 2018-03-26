@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace Chatter.Controllers
-{
+{ [RequireHttps]
     public class HomeController : Controller
     {
         public ActionResult Index()
